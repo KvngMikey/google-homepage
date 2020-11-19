@@ -1,0 +1,1 @@
+This project is about building the google homepage but not being a perfectionist at it and trying not to copy and paste html and css codes. With my own knowledge, I have been able to figure out the html and css codes used to create the google homepage and made an attempt of my own.
