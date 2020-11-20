@@ -1,0 +1,138 @@
+body {
+  font-family: 'arial', sans-serif;
+}
+.container {
+  display: grid;
+}
+header {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.button-link {
+  background-color: rgb(44, 44, 214);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 60px;
+}
+
+.nav-links a {
+  color: #202124;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: rgb(134, 134, 134);
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.to-the-right {
+  margin-left: 970px;
+  background-color: white;
+}
+
+.to-the-right,
+.images,
+.gmail {
+  color: #202124;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.gmail:hover {
+  color: rgb(134, 134, 134);
+  text-decoration: underline;
+}
+
+.images:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.img-div {
+  justify-self: center;
+  margin-top: 10%;
+}
+
+form,
+.additional-inputs {
+  justify-self: center;
+  padding-top: 5px;
+}
+
+.search {
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.additional-inputs {
+  padding-top: 25px;
+  display: block;
+}
+
+.feeling {
+  border: transparent 7px solid;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+}
+
+.lucky {
+  border: transparent 7px solid;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+}
+.lucky:hover {
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+.feeling:hover {
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.paragraph {
+  text-align: center;
+  display: inline-block;
+  line-height: 28px;
+  padding-top: 20px;
+}
+
+a {
+  padding: 4px;
+  line-height: 28px;
+  font-size: small;
+}
+
+.footer {
+  line-height: 40px;
+  display: block;
+  background-color: #f2f2f2;
+  margin-top: 11%;
+}
+
+.footer a {
+  color: #5f6368;
+  display: inline-block;
+  margin-left: 28px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: rgb(134, 134, 134);
+}
+
+.footer .privacy,
+.terms,
+.settings {
+  margin-left: 50%;
+}
